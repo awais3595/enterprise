@@ -1,0 +1,628 @@
+@font-face{
+	src:url(../font/Calibri.ttf) format("truetype");
+	font-family: Calibri;
+}
+@font-face{
+	src:url(../font/PatuaOne-Regular.otf) format("opentype");
+	font-family: PatuaOne;
+}
+a{
+	text-decoration:none;
+}
+.container{
+	width:940px;
+	margin: 0 auto;
+}
+.back-color{
+	background-color:#191919;
+}
+nav{
+	line-height:45px;
+	float:left;
+	margin-left:7px;
+}
+nav ul li{
+	display:inline-block;
+	text-transform:uppercase;
+	margin-left:7px;
+	margin-right:7px;
+}
+nav ul li a{
+	font-family:PatuaOne;
+	color:#d9d9d9;
+}
+nav ul li a:hover{
+	color:#33cccd;
+	transition: all 0.4s ease;
+}
+.search-box{
+	padding: 0px 25px;
+	float:right;
+	border-left: 1px solid #303030;
+	border-right:1px solid #303030;
+	background-image:url(../img/search.gif);
+	background-repeat:no-repeat;
+	background-position:7px 13px;
+}
+.search-box input.myInput{
+	height:45px;
+	width:20px;
+	border:none;
+	background-color:transparent;
+	color:white;
+}
+.social-icons{
+	margin-right:10px;
+	float:right;
+}
+.social-icons ul li{
+	display:inline-block;
+}
+.social-icons ul li a{
+	text-indent:-99999px;
+	height:45px;
+	width:38px;
+	display:block;
+	background:url(../img/sprite_social_1.png) no-repeat;
+	transition:all 0.4s ease;	
+}
+.social-icons ul li a.facebook{
+	background-position:-32px 0px;
+}
+.social-icons ul li a.vimeo{
+	background-position:-72px 0px;
+}
+.social-icons ul li a.pinterest{
+	background-position:-112px 0px;
+}
+.social-icons ul li a.instagram{
+	background-position:-152px 0px;
+}
+.social-icons ul li a.twitter:hover{
+	background-position: 0px bottom;
+}
+.social-icons ul li a.facebook:hover{
+	background-position:-32px bottom;
+}
+.social-icons ul li a.vimeo:hover{
+	background-position:-72px bottom;
+}
+.social-icons ul li a.pinterest:hover{
+	background-position:-112px bottom;
+}
+.social-icons ul li a.instagram:hover{
+	background-position:-152px bottom;
+}
+.logo{
+	text-align:center;
+	margin:50px 0px;
+}
+.secondary-nav{
+	background: url(../img/bg_secondary_menu_1.gif);
+}
+.secondary-nav ul{
+	text-align:center;	
+}
+.secondary-nav ul li{
+	display:inline-block;
+	line-height:58px;
+	text-transform:uppercase;
+	margin-left:10px;
+	margin-right:10px;
+}
+.secondary-nav ul li a{
+	color:#191919;
+	font-family:PatuaOne;
+}
+.secondary-nav ul li a:hover{
+	color:#33cccd;
+	transition:all 0.4s ease;
+}
+
+.top-head{
+	text-align:center;
+	margin:40px 0px 35px;
+}
+.top-head h1{
+	font-family:PatuaOne;
+	font-size:25px;
+}
+.top-head p{
+	font-family:Calibri;
+	color:#a8a8a8;
+	margin-top:5px;
+}
+
+.col-1{
+	width:300px;
+	float:left;
+	margin-right:20px;
+}
+.col-2{
+	width:300px;
+	float:left;
+}
+.col-3{
+	width:300px;
+	float:right;
+	}
+.block-1-title h4{
+	font-family:Calibri;
+}
+.block-1-title h4{
+	font-family:Calibri;
+	text-transform:uppercase;
+	color:#808080;
+	margin: 15px 0px 10px;
+}
+.block-1-info p{
+	font-family:PatuaOne;
+	line-height:18px;
+}
+.block-1-info p span{
+	color:#33cccd;
+	text-transform:uppercase;
+}
+.block-2-left{
+	float:left;
+}
+.block-2-right{
+	float:right;
+	width:210px;
+}
+.block-2-title{
+	margin-bottom:6px;
+}
+.block-2-title h4{
+	font-family:Calibri;
+	text-transform:uppercase;
+	color:#808080;
+}
+.block-2-info p{
+	font-family:PatuaOne;
+	line-height:18px;
+} 	
+.col-1-block-2{
+	margin:40px 0px;
+}
+.col-1-block-3{
+	border:3px solid #e5e5e5;
+	padding:10px;
+}
+.block-3-title h4{
+	font-family:Calibri;
+	text-transform:uppercase;
+	color:#808080;
+	margin-bottom:10px;
+}
+.block-3-info p{
+	font-family:PatuaOne;
+	line-height:18px;
+}
+.margin-tp{
+	margin-top:40px;
+}
+a.load-more{
+	text-align:center;
+	display:block;
+	color:black;
+	font-family:PatuaOne;
+	width:300px;
+	line-height:38px;
+	height:38px;
+	display:block;
+	border:1px solid black;
+	margin:45px auto 100px;
+}
+a.load-more.margin{
+	margin-left:15px;
+	width:617px;
+	border:2px solid#e8e8e8;
+	
+}
+a.load-more span{
+	position:relative;
+}
+a.load-more span:before{
+	content: "";
+    background: url(../img/load.gif) no-repeat;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -17px;
+    top: 2px;
+}
+footer{
+	background-color:#161e26;
+}
+.footer-1{
+	margin-top:35px;
+	padding:50px 0px;
+}
+.foot-col-1{
+	text-align:center;
+	width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+.foot-col-2{
+	text-align:center;
+	width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+.foot-col-3{
+	text-align:center;
+	width: 300px;
+    float: right;
+}
+.foot-head{
+	margin-bottom:15px;
+}
+.foot-head h1{
+	text-transform:uppercase;
+	color:#ffffff;
+	font-family: PatuaOne;
+}
+ul.foot-cat li{
+	line-height:34px;
+}
+ul.foot-cat li a{
+	font-family:Calibri;
+	color:#dbdbdb;
+	text-transform:uppercase;
+}
+
+ul.tags{
+	margin-bottom:30px;
+}
+ul.tags li{
+	display:inline-block;
+	line-height:35px;
+}
+ul.tags li a{
+	background-color:#262d36;
+	font-family:Calibri;
+	color:#dbdbdb;
+	text-transform:uppercase;
+	font-size:13px;
+	padding:7px 10px;
+	border-radius:2px;
+}
+.twitter p{
+	font-family:Calibri;
+	color:#c8cdd2;
+	line-height:20px;
+}
+.twitter p a{
+	color:white;
+}
+.twitter p span{
+	color:#7b8188;
+}
+ul.insta li{
+	display:inline-block;
+}
+ul.insta li a img{
+	opacity:0.6;
+}
+ul.insta li a:hover img{
+	opacity:1;
+	transition:all 0.4s ease;
+}
+.footer-2 ul li{
+	margin-left:10px;
+	margin-right:10px;
+	display:inline-block;
+	font-family:calibri;
+
+	
+}
+.footer-2{
+	background-color:#0f141a;
+	text-align:center;
+	
+	line-height:43px;
+}
+.footer-2 ul li a{
+	text-transform:uppercase;
+	color:#d9d9d9;
+}
+.footer-3{
+	text-align:center;
+	line-height:53px;
+}
+.footer-3 p{
+	font-family:calibri;
+	color:#b1b1b1;
+}
+.footer-2 ul li a:hover{
+	
+	color:#33cccd;
+	transition: all 0.4s ease;
+}
+/*-------------------------TRAVEL--------------------*/
+.margin-top{
+margin-top:43px;	
+}
+/*------------------------life--------------------*/
+.life-top{
+	margin-top:30px;
+}
+.db-line{
+	background-image:url(../img/double-line.gif);
+	height:3px;
+	margin:25px 0px 28px;
+}
+.aside-head h2{
+	font-family:patuaOne;
+	border-top:2px solid black;
+	line-height:30px;
+	
+	text-transform:uppercase;
+}
+.social .aside-head .db-line{
+	margin:0px;
+}
+.social-left{
+	float:left;
+}
+.social-right{
+	line-height:31px;
+	float:right;
+}
+.social-right a{
+	padding:2px 10px;;
+	background-color:#d3d9de;
+	font-size:13px;
+	border-radius:3px;
+	color:#ffffff;
+	font-family:calibri;
+
+}
+.social-main{
+	margin-top:10px;
+}
+.social-left span{
+	float:right;
+	margin-left:5px;
+    line-height:31px;
+}
+.aside-head{
+	margin-bottom:25px;
+}
+hr{
+	margin:25px 0px;
+	border:1px solid #e6ecec;
+	width:100%;
+
+}
+.theme{
+	margin-bottom:35px;
+}
+aside .db-line{
+	margin:0px;
+
+}
+.iphone{
+	font-size:15px;
+	font-family:patuaOne;
+	float:left;
+	width:260px;
+
+	}
+.percent{
+
+	float:right;
+	width:36px;
+
+}
+
+.percent a{
+	color:white;
+	border-radius:2px;
+	font-size:15px;
+	padding:0px 4px;
+	background-color:#33cccd;
+	;
+}
+aside .col-1-block-2 .block-2-title{
+	margin-top:14px;
+}
+aside .main-2 .latest-review p{
+	font-size:14px;
+	margin-bottom:17px;
+	line-height:16px;
+}
+aside .main-3 .main-left{
+	float:left;
+}
+aside .main-3 .main-left p{
+	border:3px solid #e6ecec;
+	padding:2px 4px;
+	font-weight:bold;
+}
+
+aside .main-3 .main-right{
+	float: right;
+    width: 89%;
+
+   
+}
+aside .main-3 .main-right h2{
+	color:#424242;
+	font-size:15px;
+    font-family: patuaOne;
+    font-weight: bold;
+    text-transform: uppercase
+}
+aside .main-3 .main-right span{
+	font-size:15px;
+	 font-family: patuaOne;
+    font-weight: bold;
+    text-transform: uppercase;
+	color:#8a8a8a;
+
+}
+
+aside .main-3 .main-right p{
+	font-size: 17px;
+    font-family: calibri;
+    color: #424242;
+}
+.pagination{
+	height:100px;
+	width:617px;
+
+}
+.pagination-left{
+	float:left;
+}
+.pagination-left a{
+	color:black;
+	padding:5px 10px;
+	border:2px solid #e6ecec;
+	font-family:calibri;
+}
+.pagination-left a:hover{
+	border-color:#33cccd;
+
+	transition:all 0.5s ease;
+	background-color:#33cccd;
+	color:#ffffff;
+}
+.pagination-right{
+	float:right;
+}
+.pagination-right p{
+	font-family:patuaOne;
+}
+a.active{
+	border-color:#33cccd;
+	
+	transition:all 0.5s ease;
+	background-color:#33cccd;
+	color:#ffffff;
+}
+
+aside .col-1-block-2.life-margin{
+	height:45px;
+}
+aside.photography-height{
+	margin-top:-371px;
+}
+.col-1-block-1 .galleries-img{
+	margin-top:13px;
+}
+.container .fashion .fashion-left{
+	width:620px;
+	float:left;
+}
+<!------------------------fashion----------------------->
+.fashion .fashion-right{
+	widht:295px;
+	float:right;
+}
+.fashion-main{
+	width:619px;
+	margin:25px 0px;
+
+}
+.fashion-main .fashion-img{
+	float:left;
+	width:250px;
+	margin-bottom:25px;
+
+}
+.fashion-main .fashion-col{
+	float:right;
+	width:352px;
+}
+.fashion-main .fashion-col h1{
+    font-family: Calibri;
+    text-transform: uppercase;
+    color: #808080;
+    margin: 15px 0px 10px;
+}
+.fashion-main .fashion-col h2{
+    font-family: PatuaOne;
+    line-height: 20px;
+	
+}
+
+.fashion-main .fashion-col p{
+	color:#424242;
+	font-family:calibri;
+	line-height:20px;
+}
+.container .pagination.fh-pag{
+	margin-top:48px;
+}
+<!---------------------------photography------------------------------------->
+.container .photography-right{
+	width:297px;
+	float:right;
+}
+.container .photography-left{
+	width:619px;
+	float:left;
+}
+.container .photography-right asider{
+	width:297px;
+}
+<!--------------------contact-------------------------------------------------->
+.container .contact-right{
+	width:298px;
+	float:left;
+}
+.container .contact-left{
+	width:600px;
+	float:right;
+}
+.container .contact-left p{
+	color:#424242;
+	font-family:calibri;
+	line-height:20px;
+	font-size:14px;
+	
+}
+.container .contact-left h1{
+	margin-top:20px;
+	color:#666666;
+	font-family:PatuaOne;
+}
+.container .contact-left span{
+	color:#ff0000;
+}
+.container .contact-left input{
+	width:302px;
+	height:24px;
+	border:1px solid #dedede;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.container .contact-left textarea{
+	width:570px;
+	height:185px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.container .contact-left button{
+	width:126px;
+	height:32px;
+	background-color:#161e26;
+	color:#ffffff;
+	font-family:PatuaOne;
+	text-transform:uppercase;
+	border:1px solid #161e26;
+	border-radius:2px;
+}
+.container .contact-left hr{
+	width:572px;
+	height:2px;
+}
+.container .contact-left h3{
+	font-family:PatuaOne;
+	font-size:20px;
+	margin-bottom:25px;
+}
